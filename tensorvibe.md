@@ -184,7 +184,7 @@ Pour utiliser Git sur la machine virtuelle :
 
 ``` shell
 sudo apt update
-sudo apt upgrade
-sudo apt install git
+sudo apt upgrade -y
+sudo apt install git -y
 git --version
 ```
